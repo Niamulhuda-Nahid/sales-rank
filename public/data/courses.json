@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co.com/0VGcH43x/courses1.png",
+      "duration": "4 Weeks",
+      "level": "Beginner",
+      "title": "Web Design Fundamentals",
+      "description": "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.",
+      "author": "John Smith"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co.com/6JZPVr8M/courses2.png",
+      "duration": "4 Weeks",
+      "level": "Beginner",
+      "title": "Web Design Fundamentals",
+      "description": "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.",
+      "author": "John Smith"
+    }
+  ]
+  
