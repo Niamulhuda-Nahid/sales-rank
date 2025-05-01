@@ -12,7 +12,7 @@ const Courses = () => {
      
   return (
     <section className="py-12 bg-white">
-      <div className="container mx-auto px-2 md:px-2 lg:px-3 font-manrope">
+      <div className="container mx-auto px-4 md:px-2 lg:px-3 font-manrope">
         <div className="flex flex-wrap justify-between md:gap-90 items-center text-center md:text-left mb-6">
           <div className='md:w-[70%]'>
             <h2 className="text-3xl font-bold text-[#262626]">Our Courses</h2>

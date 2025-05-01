@@ -116,10 +116,10 @@ const AiSalesCoach = () => {
 
                         <div className="bg-[#efefef] text-black rounded-2xl shadow p-4">
                             <h3 className="text-2xl font-bold font-manrope text-[#323232] mb-5">Quick Actions</h3>
-                            <div className="flex items-center justify-around gap-2 md:gap-10">
+                            <div className="flex items-center justify-around gap-2 md:gap-8">
                                 <div className='bg-white rounded-md p-4 pr-5 lg:pr-0 cursor-pointer'>
                                     <img src={frame1} alt="" className='size-6 md:size-8' />
-                                    <p className="text-sm lg:text-lg font-manrope md:font-semibold mt-1.5">Generate Script</p>
+                                    <p className="text-sm lg:text-lg font-manrope md:font-semibold mt-1.5 pr-0 lg:pr-5">Generate Script</p>
                                 </div>
                                 <div className='bg-white rounded-md p-4 pr-5 cursor-pointer'>
                                     <img src={frame2} alt="" className='size-6 md:size-8' />
