@@ -31,7 +31,7 @@ const Banner = () => {
                     <div className="flex justify-center gap-6 md:gap-12">
                         <div className="flex items-center gap-2 md:gap-5">
                             <div className="p-1 md:p-2 bg-white rounded-lg shadow-xl">
-                                {/* Shield SVG Icon */}
+                              
 
                                 <img src={ai3} className='w-8 md:w-full' alt="" />
                             </div>
@@ -44,7 +44,7 @@ const Banner = () => {
                         </div>
                         <div className="flex items-center gap-2 md:gap-5">
                             <div className="p-1 md:p-2 bg-white rounded-lg shadow-xl">
-                                {/* Settings SVG Icon */}
+                              
                                 <img src={ai4} className='w-8 md:w-full' alt="" />
                             </div>
                             <div>

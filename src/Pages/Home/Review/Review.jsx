@@ -12,21 +12,21 @@ const testimonials = [
             'They thoroughly analyze our industry and target audience, allowing them to develop customized campaigns that effectively reach and engage our customers. Their creative ideas and cutting-edge techniques have helped us stay ahead of the competition.',
         name: 'Michael Kaizer',
         title: 'CEO of Basecamp Corp',
-        avatar: '', // Placeholder — you can add image URL here
+        avatar: '', 
     },
     {
         quote:
             'They thoroughly analyze our industry and target audience, allowing them to develop customized campaigns that effectively reach and engage our customers. Their creative ideas and cutting-edge techniques have helped us stay ahead of the competition.',
         name: 'Michael Kaizer',
         title: 'CEO of Basecamp Corp',
-        avatar: '', // Placeholder — you can add image URL here
+        avatar: '', 
     },
     {
         quote:
             'They thoroughly analyze our industry and target audience, allowing them to develop customized campaigns that effectively reach and engage our customers. Their creative ideas and cutting-edge techniques have helped us stay ahead of the competition.',
         name: 'Michael Kaizer',
         title: 'CEO of Basecamp Corp',
-        avatar: '', // Placeholder — you can add image URL here
+        avatar: '', 
     },
 ];
 
