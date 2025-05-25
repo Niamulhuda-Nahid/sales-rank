@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion } from "motion/react"
 
 const Faq = () => {
     const [openIndex, setOpenIndex] = useState(null);
@@ -24,15 +25,19 @@ const Faq = () => {
     ];
 
     return (
-        <div className="container mx-auto px-4 md:px-2 lg:px-3 space-y-4">
-            <div className="lg:flex lg:gap-24 md:mb-12 font-questrial">
+        <div className="container mx-auto px-4 md:px-2 lg:px-3 space-y-4 mt-10">
+            <motion.div
+            initial={{x: "100vh"}}
+            animate={{x: 0}}
+            transition={{delay: 0, duration: 5, type: "spring", stiffness: 70}}
+            className="lg:flex lg:gap-24 md:mb-12 font-questrial">
                 <div className="md:text-2xl text-[#031e4c] mb-3 md:mb-0">
                     <p>Frequently asked <br /> questions</p>
                 </div>
                 <div className="flex-1 text-3xl text-center lg:text-left leading-8 md:text-6xl text-[#181519]">
                     <h2>Constant collaboration is how we roll. Let's see if we are a good fit.</h2>
                 </div>
-            </div>
+            </motion.div>
             {faqData.map((faq, index) => (
                 <div
                     key={index}

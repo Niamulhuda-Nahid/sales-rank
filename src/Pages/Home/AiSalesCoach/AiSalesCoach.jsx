@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaArrowUp } from 'react-icons/fa6';
 import icon from '../../../assets/images/right.png'
 import frame from '../../../assets/images/frame.png'
@@ -8,6 +8,8 @@ import { FiRefreshCw } from 'react-icons/fi';
 import { FaVolumeUp } from 'react-icons/fa';
 import { AiOutlineDislike, AiOutlineLike } from 'react-icons/ai';
 import { RiDeleteBin7Line } from 'react-icons/ri';
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
 
 const AiSalesCoach = () => {
     const [messages, setMessages] = useState([
@@ -22,7 +24,9 @@ const AiSalesCoach = () => {
         }
     };
     return (
-        <div className='bg-gradient-to-br from-blue-900 to-blue-500 '>
+        <div 
+           
+        className='bg-gradient-to-br from-blue-900 to-blue-500 '>
             <div className=" text-white px-4 py-7 container mx-auto">
                 <h1 className="text-lg md:text-2xl font-manrope text-[#b6c9ad] mb-4">Live AI Coach</h1>
                 <h2 className="text-2xl md:text-3xl lg:text-5xl font-manrope mb-7 md:mb-12">Take a Suggestion Coaching</h2>
@@ -69,7 +73,8 @@ const AiSalesCoach = () => {
                     </div>
 
                     {/* middle */}
-                    <div className='col-span-12 lg:col-span-1'>
+                    <div
+                    className='col-span-12 lg:col-span-1'>
                         <div className=" lg:w-1/2 mx-auto bg-white rounded-full px-7 py-3 md:py-6 flex lg:flex-col items-center justify-center gap-5 text-[#292929]">
                             <button>
                                 <FiRefreshCw className="size-7 hover:text-black duration-200 ease-in-out" />

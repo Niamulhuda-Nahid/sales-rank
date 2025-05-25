@@ -1,12 +1,17 @@
 import { useState } from "react";
-
 import logo from "../../assets/images/logo.png"
+import { Link } from "react-router-dom";
+import { motion } from "motion/react"
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-gradient-to-r from-[#d5dff9] to-[#f8f8f8]">
+    <motion.div
+      initial={{y: -250}}
+      animate={{y: 0}}
+      transition={{duration: 0.5, }}
+    className="bg-gradient-to-r from-[#d5dff9] to-[#f8f8f8]">
       <nav className="lg:container mx-auto relative pt-[30px] pr-5 md:pr-0 z-50">
         <div className="mx-auto md:flex ">
           <div className="flex items-center justify-between">
@@ -66,12 +71,12 @@ function Navbar() {
               }`}
           >
             <div className="flex flex-col  md:flex-row lg:mx-10 lg:py-0 font-semibold text-sm text-[#020407] font-plusJakartaSans">
-              <a
-                href="#"
+              <Link
+                to='/'
                 className="px-2.5 py-2  transition-colors duration-300 transform rounded-lg md:mx-2"
               >
                 Home
-              </a>
+              </Link>
               <a
                 href="#"
                 className="px-2.5 py-2  transition-colors duration-300 transform rounded-lg md:mx-2"
@@ -84,18 +89,18 @@ function Navbar() {
               >
                 Pricing
               </a>
-              <a
-                href="#"
+              <Link
+                to='/courses'
                 className="px-2.5 py-2  transition-colors duration-300 transform rounded-lg md:mx-2"
               >
-                Consulting
-              </a>
-              <a
-                href="#"
+                Courses
+              </Link>
+              <Link
+                to='/aiSalesCoach'
                 className="px-2.5 py-2  transition-colors duration-300 transform rounded-lg md:mx-2"
               >
                 Ai Coach
-              </a>
+              </Link>
             </div>
 
             <div className="relative mt-4 md:mt-0 font-manrope">
@@ -104,7 +109,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-    </div>
+    </motion.div>
   );
 }
 

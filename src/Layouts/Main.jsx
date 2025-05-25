@@ -6,7 +6,7 @@ import Footer from '../Pages/Shared/Footer';
 
 const Main = () => {
     return (
-        <div>
+        <div className='overflow-x-hidden'>
             <Navbar/>
             <Outlet></Outlet>
             <Footer></Footer>

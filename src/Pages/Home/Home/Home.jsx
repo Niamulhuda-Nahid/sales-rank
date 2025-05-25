@@ -5,14 +5,15 @@ import Faq from '../Faq/Faq';
 import HireSmarter from '../../../Components/HireSmarter';
 import Review from '../Review/Review';
 import AiSalesCoach from '../AiSalesCoach/AiSalesCoach';
+import AnimatedBannerWrapper from '../../../Components/AnimatedBannerWrapper';
 
 
 const Home = () => {
     return (
         <div className=''>
-           <Banner/>
-           <AiSalesCoach/>
+           <AnimatedBannerWrapper/>
            <Courses/>
+           <AiSalesCoach/>
            <Faq/>
            <Review></Review>
            <HireSmarter></HireSmarter>
